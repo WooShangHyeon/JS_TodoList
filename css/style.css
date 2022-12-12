@@ -1,7 +1,12 @@
 .hidden{
     display: none;
 }
-
+h2{
+    text-align: center;
+}
+#greeting,#login-form, #todo-form {
+    text-align: center;
+}
 .bgImage{
     position: absolute;
     top: 0;
