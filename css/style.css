@@ -1,10 +1,16 @@
 .hidden{
     display: none;
 }
-h2{
+#clock{
     text-align: center;
+    margin: 0;
 }
-#greeting,#login-form, #todo-form {
+#greeting{
+    text-align: center;
+    margin: 0;
+}
+
+#login-form, #todo-form {
     text-align: center;
 }
 .bgImage{
@@ -16,6 +22,14 @@ h2{
     z-index: -1;
 }
 
+#author{
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+}
+#quotes{
+    text-align: center;
+}
 
 
 
