@@ -1,18 +1,6 @@
 .hidden{
     display: none;
 }
-#clock{
-    text-align: center;
-    margin: 0;
-}
-#greeting{
-    text-align: center;
-    margin: 0;
-}
-
-#login-form, #todo-form {
-    text-align: center;
-}
 .bgImage{
     position: absolute;
     top: 0;
@@ -22,14 +10,6 @@
     z-index: -1;
 }
 
-#author{
-    font-size:larger;
-    font-weight: bold;
-    text-align: center;
-}
-#quotes{
-    text-align: center;
-}
 
 
 

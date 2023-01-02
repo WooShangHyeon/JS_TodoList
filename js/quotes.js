@@ -1,43 +1,43 @@
 const quotes = [
     {
-    quote: 'I never dreamed about success, I worked for it',
-    author: 'Estee Lauder'
+    quote: '인생 속에 있는 것은 무엇이건 간에 겁낼필요가 없다. 왜냐하면 그것은 오직 이해되도록 기다리고 있을 뿐이기 때문이다.',
+    author: '퀴리 부인'
     },
     {
-    quote: 'Do not try to be original, just try to be good.',
-    author: 'Paul Rand'
+    quote: '지금 적극적으로 실행하는 괜찮은 계획이 다음주의 완벽한 계획보다 낫다.',
+    author: '조진S.패튼'
     },
     {
-    quote: 'Do not be afraid to give up the good to go for the great',
-    author: 'John D. Rockefeller'
+    quote: '나는 날마다 모든 면에서 점점 좋아지고 있다.',
+    author: '에밀 쿠에'
     },
     {
-    quote: 'If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.',
-    author: 'Martin Luther King Jr.'
+    quote: '불가능한 일을 해보는 것은 신나는 일이다.',
+    author: '윌트 디즈니'
     },
     {
-    quote: 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.',
-    author: 'Thomas Edison'
+    quote: '네 운명을 사랑하라. 이것이 지금부터 나의 사랑이 될 것이다.',
+    author: '프리드리히 니체'
     },
     {
-    quote: 'The fastest way to change yourself is to hang out with people who are already the way you want to be',
-    author: 'REid Hoffman'
+    quote: '지나간 일로 미래를 설계할 수는 없다.',
+    author: '에드먼드 버크'
     },
     {
-    quote: 'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations',
-    author: 'Tim O Reilly'
+    quote: '스스로를 아는 것부터 시작하라.',
+    author: '프리드리히 니체'
     },
     {
-    quote: 'Some people dream of success, while other people get up every morning and make it happen',
-    author: 'Wayne Huizenga'
+    quote: '가장 비참한 건 앞날에 대한 불안감으로 인해 이미 불안해져 있는 마음이다.',
+    author: '세네카'
     },
     {
-    quote: 'The only thing worse than starting something and falling.. is not starting something',
-    author: 'SEth Godin'
+    quote: '문제점을 찾지 말고 해결책을 찾으라.',
+    author: '핸리 포드'
     },
     {
-    quote: 'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-    author: 'Jim Rohn'
+    quote: '성공이 끝은 아니다.',
+    author: '윈스턴 처칠'
     },
     ];
 
