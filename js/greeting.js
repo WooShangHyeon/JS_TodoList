@@ -18,8 +18,14 @@ function onlogSubmit(event){
 function paintingGreeting(username){
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
+
     const todo = document.querySelector("#todo-form");
     todo.classList.remove(HIDDEN_CLASSNAME);
+
+    const todolist = document.querySelector(".container_under");
+    todolist.classList.remove(HIDDEN_CLASSNAME);
+
+    
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
