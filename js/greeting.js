@@ -11,11 +11,15 @@ function onlogSubmit(event){
     const username = loginInput.value;
     localStorage.setItem(USERNAME_KEY,username);
     paintingGreeting(username);
+    
+    
 }
 
 function paintingGreeting(username){
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
+    const todo = document.querySelector("#todo-form");
+    todo.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);

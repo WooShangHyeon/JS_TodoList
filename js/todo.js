@@ -23,7 +23,7 @@ function paintToDo(newToDo){
     const span = document.createElement("span");
     span.innerText=newToDo.text;
     const button = document.createElement("button");
-    button.innerText = "❌";
+    button.innerText = "delete";
     button.addEventListener("click",deleteToDo);
     li.appendChild(span);
     li.appendChild(button);
@@ -31,16 +31,24 @@ function paintToDo(newToDo){
 }
 
 function handleToDoSubmit(event) {
-    event.preventDefault();
-    const newTodo = toDoInput.value;
-    toDoInput.value = "";
-    const newTodoObj = {
-      text: newTodo,
-      id: Date.now(),
-    };
-    toDos.push(newTodoObj);
-    paintToDo(newTodoObj);
-    saveToDos();
+  console.log(toDos.length);
+    if(toDos.length>12) {
+      alert("That is too many toDos. How about taking a rest?");
+      event.preventDefault();
+    }
+    else{
+      event.preventDefault();
+      const newTodo = toDoInput.value;
+      toDoInput.value = "";
+      const newTodoObj = {
+        text: newTodo,
+        id: Date.now(),
+      };
+      toDos.push(newTodoObj);
+      paintToDo(newTodoObj);
+      saveToDos();
+    }
+    
   }
 
 toDoForm.addEventListener("submit",handleToDoSubmit);
